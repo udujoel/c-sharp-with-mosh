@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace c_sharp_with_mosh
+﻿namespace c_sharp_with_mosh
 {
     class Program
     {
@@ -10,17 +8,8 @@ namespace c_sharp_with_mosh
             mypPerson.firstName = "james";
             mypPerson.lastName = "rom";
             mypPerson.Introduce();
-        }
-    }
 
-    class Person
-    {
-        public string firstName;
-        public string lastName;
-
-        public void Introduce()
-        {
-            Console.WriteLine($"My name is {firstName} {lastName}");
+            Calculator calculator = new Calculator();
         }
     }
 }
