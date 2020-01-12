@@ -24,6 +24,9 @@ namespace c_sharp_with_mosh
             }
 
             Console.WriteLine(list);
+
+            string path = @"c:\windows\system/anywhereIwant";
+            Console.WriteLine(path);
         }
     }
 }
