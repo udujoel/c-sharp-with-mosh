@@ -9,7 +9,7 @@ namespace c_sharp_with_mosh
             Person mypPerson = new Person();
             mypPerson.firstName = "james";
             mypPerson.lastName = "rom";
-            mypPerson.Introduce(mypPerson.lastName);
+            mypPerson.Introduce();
         }
     }
 
@@ -18,9 +18,9 @@ namespace c_sharp_with_mosh
         public string firstName;
         public string lastName;
 
-        public void Introduce(string name)
+        public void Introduce()
         {
-            Console.WriteLine($"Welcome {name}");
+            Console.WriteLine($"My name is {firstName} {lastName}");
         }
     }
 }
