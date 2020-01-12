@@ -1,4 +1,6 @@
-﻿namespace c_sharp_with_mosh
+﻿using System;
+
+namespace c_sharp_with_mosh
 {
     class Program
     {
@@ -10,6 +12,18 @@
             mypPerson.Introduce();
 
             Calculator calculator = new Calculator();
+
+            var numbers = new int[3] {1, 2, 3};
+            string list = string.Join("-", numbers);
+
+            int count = 0;
+            while (count < list.Length)
+            {
+                Console.WriteLine(list[count]);
+                count++;
+            }
+
+            Console.WriteLine(list);
         }
     }
 }
